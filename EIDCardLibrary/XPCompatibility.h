@@ -7,6 +7,6 @@
 extern "C"
 {
 	FARPROC WINAPI delayHookFailureFunc (unsigned dliNotify, PDelayLoadInfo pdli);
-	PfnDliHook __pfnDliFailureHook2 = delayHookFailureFunc;
+	//PfnDliHook __pfnDliFailureHook2 = delayHookFailureFunc;
 }
 
